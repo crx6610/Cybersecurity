@@ -1,0 +1,37 @@
+课程链接：https://www.bilibili.com/video/BV1NK411w7mc/?spm_id_from=333.337.search-card.all.click&vd_source=b689b3951f7c5e5396bae1f655b68562
+一:了解Web和网络基础
+1）了解Web
+	www万维网的诞生和构成 ：HTML、HTTP、URL
+	客户端和服务器
+	请求request和响应response
+二：与HTTP相关的协议
+1）TCP/IP
+	OSI七层模型
+	四层模型
+	IP:网络层
+	TCP:传输层 三次握手
+2)DNS
+	根域名：com cn com.cn org tech info me
+	二级域名：baidu.com sina.com.cn qq.com 12306.cn
+	子域名：pic.baidu.com sports.sina.com.cn news.qq.com
+3）HTTP协议安全性的不足
+	公开 明文 网络
+	解决办法：SSL/TLS安全传输、加密报文体
+三：HTTP协议 : 超文本传输协议
+	URI和URL
+	HTTP报文
+		八种请求方法
+		状态码①状态码范围：001-999
+		          ②可以根据需要定义私有的状态码
+			  ③状态码是http协议中的标准而非强制规则
+		HTTP首部
+				请求首部
+				响应首部
+				通用首部
+				实体首部
+	HTTP的无状态特性①Cookie②Session③Token
+四：HTTP总结
+①特点：灵活可扩展、可靠的传输协议、应用层协议、采用请求应答通讯模式、C/S模式、无状态的协议、实体数据可分段
+可压缩、支持多语言、灵活编码
+②优点：灵活、简单、易扩展，应用广泛、无状态减轻服务器压力，更容易组成服务器集群、明文传输让协议更加容易理解，更直观、调试更容易
+③缺点：无状态需要Cookie技术支持、明文传输让数据毫无隐私可言、不安全，没有客户身份验证、容易伪装、篡改，没有应答模式、对高并发网络传输有挑战
