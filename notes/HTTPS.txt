@@ -1,0 +1,7 @@
+学习链接：https://www.bilibili.com/video/BV1h1421y7YH/?spm_id_from=333.337.search-card.all.click&vd_source=b689b3951f7c5e5396bae1f655b68562
+TLS:传输加密协议
+SSL:安全套接层，最早由网景公司设计的加密协议，后贡献给IETF组织，并最终重命名为TLS。
+除了HTTPS外，TLS可以应用于任何基于TCP/IP协议的上层协议或应用程序，如SFTP协议,SMTP协议，数据库间通信加密等
+
+对称加密 非对称加密：公钥与私钥
+证书：唯一标识一个站点的身份信息
