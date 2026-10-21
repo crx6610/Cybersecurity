@@ -1,0 +1,10 @@
+学习链接：https://www.bilibili.com/video/BV1Mx411v7rJ/?spm_id_from=333.337.search-card.all.click&vd_source=b689b3951f7c5e5396bae1f655b68562
+TCP四层模型
+
+端系统（PC 服务器等）
+中间系统（路由器）
+应用层和传输层使用端到端(end-to-end)协议
+网络层提供的是逐跳(hop-to-hop)协议
+网络IP提供的是一种不可靠的服务，他只是尽可能快的把分组从源节点送到目的节点，但不提供可靠性保障。
+TCP在不可靠的IP层上提供一个可靠的传输层
+互联网的目的之一就是在应用程序中隐藏所有的物理细节
