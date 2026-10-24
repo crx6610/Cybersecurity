@@ -33,3 +33,8 @@ TCP和UDP都用一个16bit的端口号来表示不同的应用程序（ftp,telne
 
 MTU和路径MTU
 
+IP
+IP是TCP/IP协议族中最为核心的协议。所有的TCP、UDP、ICMP及IGMP数据都以IP数据报格式传输
+IP提供不可靠、无连接的数据报传输服务
+介绍两个有用的命令：ipconfig和netstat 
+IP的未来，ipv4利用nat和cidr技术来延缓耗尽
